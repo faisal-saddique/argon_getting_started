@@ -9,6 +9,7 @@ Before getting started, you will need the following:
 - A Particle Argon board
 - A USB cable
 - A computer with an internet connection
+- 
 
 ## Step 1: Set up your Particle account
 
@@ -22,19 +23,25 @@ Before getting started, you will need the following:
 3. In a web browser, navigate to https://setup.particle.io.
 4. Follow the instructions on the page to set up your Particle Argon and connect it to Wi-Fi.
 
-## Step 3: Install Particle CLI
+## Step 3: Use the Official Web IDE
 
-1. Download and install the Particle CLI tool by following the instructions for your operating system at https://docs.particle.io/tutorials/developer-tools/cli/.
-2. Open a terminal or command prompt and run the command particle login to log in to your Particle account.
+1. In a web browser, navigate to https://build.particle.io/build/new to access the Particle Web IDE.
+2. Log in to your Particle account.
+3. Click on the "Libraries" tab and add any necessary libraries for your project.
+4. Create a new project by clicking on the "Create New App" button.
+5. Write your code in the editor and save the file.
+6. Click the "Devices" button in the left-hand navigation pane and select your Particle Argon.
+7. Click the "Flash" button to flash the code to your Particle Argon.
+8. The RGB LED on your Particle Argon should now be blinking green, indicating that your code is running.
 
-## Step 4: Blink an LED
+## Step 4: Use VS Code Workbench
 
-1. Create a new directory for your project.
-2. In the terminal, navigate to the new directory.
-3. Run the command particle create argon to create a new Particle Argon project.
-4. Run the command cd argon to navigate into the project directory.
-5. Run the command particle compile argon . to compile the project code.
-6. Run the command particle flash --serial argon . to flash the code to your Particle Argon.
+1. Download and install the Particle Workbench extension for VS Code from the VS Code Marketplace.
+2. Open VS Code and log in to your Particle account using the extension.
+3. Click on the "Particle: Create New Project" button in the VS Code command palette.
+4. Select the "argon" device type and follow the prompts to create a new project.
+5. Write your code in the editor and save the file.
+6. Click the "Particle: Flash application (local)" button in the VS Code command palette to flash the code to your Particle Argon.
 7. The RGB LED on your Particle Argon should now be blinking green, indicating that your code is running.
 
 Congratulations, you have successfully set up your Particle Argon and programmed it to blink an LED! This is just the beginning of what you can do with your Particle Argon, so keep exploring and have fun!
