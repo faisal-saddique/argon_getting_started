@@ -15,6 +15,7 @@ Before getting started, you will need the following:
 
 1. If you don't already have one, create a Particle account at https://login.particle.io/signup.
 2. Verify your email address by clicking the link in the email you receive from Particle.
+[![A Video guide on setting up Particle Argon](https://img.youtube.com/vi/xK20wrWDduQ/0.jpg)](https://www.youtube.com/watch?v=xK20wrWDduQ)
 
 ## Step 2: Set up your Particle Argon
 
