@@ -1,4 +1,4 @@
-### Getting Started with Particle Argon
+# Getting Started with Particle Argon
 
 The Particle Argon is a powerful Wi-Fi and BLE enabled development board that can be programmed with Particle's cloud-based software platform. This guide will walk you through the steps to get started with your Particle Argon.
 
