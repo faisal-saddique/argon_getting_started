@@ -52,7 +52,27 @@ Congratulations, you have successfully set up your Particle Argon and programmed
 
 # Getting started with Bluefruit Connect App (for testing BLE communication)
 
+## Steps for setting up the app
+
 1. Download the App: Download and install the Adafruit Bluefruit Connect App from your device's app store. The app is available for both Android and iOS devices.
 2. Connect your device: Make sure your Bluetooth is turned on and connect your device to the app. Once you open the app, tap the Connect button and select your device from the list of available devices.
 3. Explore the App: Once connected, you can explore the various features of the app. The app has several modes, including UART, Controller, and Color Picker.
 4. UART Mode: This mode allows you to send and receive data over Bluetooth. You can send text or data to your device and receive data back. To use this mode, you need to set up a UART service on your device. The app has a built-in Terminal feature that allows you to send and receive data. I won't go into the details of the other modes as we won't need them.
+
+## Steps for testing the /codes/4_working_demo_combining_above_all/4_working_demo_combining_above_all.cpp file
+
+To test this code with the Bluefruit Connect app, you will need to follow these steps:
+
+1. Connect your Particle device to your computer using a USB cable.
+2. Open the Particle Web IDE and create a new project.
+3. Copy and paste the code you want to test into the code editor in the Web IDE.
+4. Add the necessary libraries to your project. In this case, we don't have to install any additional libraries.
+5. Verify and flash the code to your Particle device.
+6. Once the code has been flashed to your device, disconnect the device from your computer.
+7. Open the Bluefruit Connect app on your mobile device.
+8. Turn on Bluetooth on your mobile device.
+9. Select "UART" from the list of available connections in the Bluefruit Connect app.
+10. Select your Particle device from the list of available devices in the Bluefruit Connect app.
+11. Once connected, you will be able to send and receive data over Bluetooth using the Bluefruit Connect app.
+12. To test the code, send the command "ON" or "OFF" to turn the LED on or off, respectively. You should see the LED turn on or off in response to the command.
+13. You can also send and receive data in JSON format by modifying the "loop" function in the code. The current implementation sends random temperature and humidity values every 2 seconds. You can modify this to send whatever data you want. To receive data, you will need to modify the "onDataReceived" function in the code to parse the data you receive over BLE.
