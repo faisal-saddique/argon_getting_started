@@ -34,7 +34,7 @@ Before getting started, you will need the following:
 5. Write your code in the editor and save the file.
 6. Click the "Devices" button in the left-hand navigation pane and select your Particle Argon.
 7. Click the "Flash" button to flash the code to your Particle Argon.
-8. The RGB LED on your Particle Argon should now be blinking green, indicating that your code is running.
+8. The RGB LED on your Particle Argon should now be breathing cyan, indicating that your board is connected to the internet.
 
 ## Step 4: Use VS Code Workbench
 
@@ -44,8 +44,15 @@ Before getting started, you will need the following:
 4. Select the "argon" device type and follow the prompts to create a new project.
 5. Write your code in the editor and save the file.
 6. Click the "Particle: Flash application (local)" button in the VS Code command palette to flash the code to your Particle Argon.
-7. The RGB LED on your Particle Argon should now be blinking green, indicating that your code is running.
+7. The RGB LED on your Particle Argon should now be breathing cyan, indicating that your board is connected to the internet.
 
 Congratulations, you have successfully set up your Particle Argon and programmed it to blink an LED! This is just the beginning of what you can do with your Particle Argon, so keep exploring and have fun!
 
+<br>
 
+# Getting started with Bluefruit Connect App (for testing BLE communication)
+
+1. Download the App: Download and install the Adafruit Bluefruit Connect App from your device's app store. The app is available for both Android and iOS devices.
+2. Connect your device: Make sure your Bluetooth is turned on and connect your device to the app. Once you open the app, tap the Connect button and select your device from the list of available devices.
+3. Explore the App: Once connected, you can explore the various features of the app. The app has several modes, including UART, Controller, and Color Picker.
+4. UART Mode: This mode allows you to send and receive data over Bluetooth. You can send text or data to your device and receive data back. To use this mode, you need to set up a UART service on your device. The app has a built-in Terminal feature that allows you to send and receive data. I won't go into the details of the other modes as we won't need them.
