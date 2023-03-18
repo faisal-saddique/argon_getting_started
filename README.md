@@ -9,7 +9,6 @@ Before getting started, you will need the following:
 - A Particle Argon board
 - A USB cable
 - A computer with an internet connection
-- 
 
 ## Step 1: Set up your Particle account
 
